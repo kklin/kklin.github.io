@@ -38,13 +38,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="/">Home</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="active"><a href="/projects.html">Projects</a></li> <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -52,12 +51,92 @@
 
     <div class="container">
 
-      <div class="starter-template">
+        <!--      <div style="padding: 40px 15px">-->
+      <div class="starter-template" id="project-list">
         <h1>Projects</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br>
-        All you get is this text and a mostly barebones HTML document.</p>
+        <a data-scroll href="#musicshare"><font size=5>Musicshare</font></a> Music listening, democratized.<br/>
+        <a data-scroll href="#treasureshare"><font size=5>Treasure Share</font></a> Using Bitcoin to promote collaboration between charities.<br/>
+        <a data-scroll href="#squirtle"><font size=5>Squirtle</font></a> Save and share webpage states.<br/>
+        <a data-scroll href="#audiosteganography"><font size=5>Audio Steganography</font></a> Hiding messages in analog audio<br/>
       </div>
 
+      <div id="musicshare">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Musicshare</h3>
+                  </div>
+                  <div class="panel-body">
+                      Music share yay<br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                  </div>
+                  <div class="panel-footer" align="right"><a data-scroll
+                          href="#project-list">Back to project list</a> | <a href="/projects/musicshare.html">Find out More</a></div>
+          </div>
+      </div>
+
+      <div id="treasureshare">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Treasureshare</h3>
+                  </div>
+                    <div class="panel-body">
+                      r u a pirate<br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+              </div>
+          </div>
+      </div>
+
+      <span id="squirtle">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Squirtle</h3>
+                  </div>
+                    <div class="panel-body">
+                      P O K E M O N<br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+              </div>
+          </div>
+      </span>
+
+      <span id="audiosteganography">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Audio Steganography</h3>
+                  </div>
+                    <div class="panel-body">
+                      Secrets secrets secrets<br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+              </div>
+          </div>
+      </span>
     </div><!-- /.container -->
 
 
@@ -66,6 +145,11 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/smooth-scroll.js"></script>
+    <!-- TODO: where does this kinda stuff usually go? -->
+    <script>
+        smoothScroll.init();
+    </script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
   </body>
