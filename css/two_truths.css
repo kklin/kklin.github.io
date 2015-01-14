@@ -1,0 +1,49 @@
+*,*:after,*:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.statements-container { 
+    width: 630px;
+    margin: 0 auto;
+}
+
+.answer-container {
+    width: 630px;
+    margin: 0 auto;
+}
+
+.two-truths-container {
+    width: 650px;
+    background-color: #4F8799;
+}
+
+.statement {
+    display: inline-block;
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #81AFBE;
+    text-align: center;
+    color: #333;
+}
+
+.statement-selected {
+    background-color: #FFF;
+}
+
+.statement:last-child {
+    margin-right: 0;
+}
+
+/* TODO: is this really the right way to align right? */
+.confirm-next {
+    display: inline-block;
+    width: 100px;
+    margin-left: 528px;
+    margin-bottom: 10px;
+    background-color: #81AFBE;
+    text-align: center;
+}
