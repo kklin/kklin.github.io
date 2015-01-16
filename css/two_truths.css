@@ -17,6 +17,8 @@
 .two-truths-container {
     width: 650px;
     background-color: #4F8799;
+    margin: auto auto;
+    margin-top: 50px;
 }
 
 .statement {
@@ -28,6 +30,7 @@
     background-color: #81AFBE;
     text-align: center;
     color: #333;
+    border-radius: 5px;
 }
 
 .statement-selected {
@@ -40,9 +43,10 @@
 
 /* TODO: is this really the right way to align right? */
 .confirm-next {
+    position: absolute;
     display: inline-block;
     width: 100px;
-    margin-left: 528px;
+    float: right;
     margin-bottom: 10px;
     background-color: #81AFBE;
     text-align: center;
