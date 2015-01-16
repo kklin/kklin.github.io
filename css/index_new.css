@@ -9,11 +9,11 @@
     background-color: gray;
     font-family: Copperplate;
     color: white;
+    font-size: 20px;
 }
 
 .nav-personal-overview {
     float: left;
-    width: 150px;
     padding: 10px;
 }
 
@@ -23,11 +23,15 @@
     margin-top: 10px;
 }
 
+.nav-link:hover {
+   color: #300A24; 
+}
+
 /* === CONTENT STUFF=== */
 
 .content-container {
     margin-top: 50px;
-    margin-left: 160px;
+    margin-left: 200px;
     margin-right: 250px;
 }
 
