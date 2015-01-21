@@ -73,3 +73,6 @@ exclude:
     - README.md
     - util_scripts
     - TODO
+
+paginate: 5
+paginate_path: "themenu/page:num/"
