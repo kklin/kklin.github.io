@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Eggdrop Soup
+title: Soup and Korean Pancake
 ---
 
 <img class="food-photo" src="/themenu/images/food/2014-9-30.jpg">
