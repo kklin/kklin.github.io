@@ -65,31 +65,33 @@ layout: default
             <h1>Work Experience</h1>
         </div>
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
+            <div class="work-img">
+              <img src="/images/rescomp.png">
+          </div>
+          <h3>{Junior,Lead} Unix Sysadmin</h3>
+          <h4 class="text-muted">Jun 2014 - Present</h4>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <div class="work-img">
+            <img src="http://iconshow.me/media/images/logo/brand-logo-icon/png/256/ebay-256.png">
+          </div>
+          <h3>Software Engineering Intern</h3>
+          <h4 class="text-muted">Jun - Aug 2015</h4>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <div class="work-img">
+              <img src="http://images.insidejobs.com/schools/896/photos/medium/naval_postgraduate_school_logo.jpg">
+          </div>
+          <h3>Software Engineering Intern</h3>
+          <h4 class="text-muted">2011-2012</h4>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
     </div>
@@ -115,7 +117,16 @@ layout: default
         <div class="section-title">
             <h1>Skills</h1>
         </div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis est sit amet faucibus ornare. Cras pellentesque massa a tincidunt mollis. Vestibulum mollis porttitor tincidunt. Pellentesque at enim eget turpis pulvinar dignissim. Cras eleifend dolor mi, non scelerisque neque euismod vel. Vestibulum libero libero, cursus non consequat in, volutpat ac augue. Aliquam erat volutpat. Nulla mattis luctus massa, id congue leo imperdiet quis. Donec faucibus urna ac aliquam tincidunt. Proin ut quam molestie, maximus felis vel, ullamcorper sapien. Fusce accumsan sodales augue, vel sagittis urna auctor vitae. Sed et ornare lacus, sit amet interdum turpis. Sed dui mauris, viverra et accumsan sit amet, pellentesque vel sapien. Donec eget tellus id nisl pretium condimentum eu vel turpis. Vivamus vitae vulputate quam.
+{% highlight sql %}
+kklin@host ~ % psql {{ site.db_name }}
+
+{{ site.db_name }}=> SELECT * FROM skills ORDER BY proficiency DESC;
+skill  | proficiency | 
+-------+-------------+
+python | fluent      |
+bash   | fluent      |
+C      | proficient  |
+{% endhighlight %}
     </div>
 
     <a name="education"></a>
@@ -123,5 +134,32 @@ layout: default
         <div class="section-title">
             <h1>Education</h1>
         </div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis est sit amet faucibus ornare. Cras pellentesque massa a tincidunt mollis. Vestibulum mollis porttitor tincidunt. Pellentesque at enim eget turpis pulvinar dignissim. Cras eleifend dolor mi, non scelerisque neque euismod vel. Vestibulum libero libero, cursus non consequat in, volutpat ac augue. Aliquam erat volutpat. Nulla mattis luctus massa, id congue leo imperdiet quis. Donec faucibus urna ac aliquam tincidunt. Proin ut quam molestie, maximus felis vel, ullamcorper sapien. Fusce accumsan sodales augue, vel sagittis urna auctor vitae. Sed et ornare lacus, sit amet interdum turpis. Sed dui mauris, viverra et accumsan sit amet, pellentesque vel sapien. Donec eget tellus id nisl pretium condimentum eu vel turpis. Vivamus vitae vulputate quam.
+                <div class="row">
+                 <div class="col-md-6">
+                  <article class="education">
+                    <header>
+                      <h3>University of California - Berkeley</h3>
+                      <p>Electrical Engineering and Computer Science B.S.</p>
+                      <p><strong>Expected Graduation Date:</strong> May 2017</p>
+                      <!-- <br>
+                      <img src="/img/cal.png" /> -->
+                    </header>
+                  </article>
+                </div>
+                <div class="col-md-6">
+                  <article class="education">
+                    <header>
+                      <p><strong>Relevant Coursework</strong></p>
+                    </header>
+                      <p>CS61B: Data Structures</p>
+                      <p>CS61C: Great Ideas in Computer Architecture</p>
+                      <p>CS70: Discrete Mathematics and Probability</p>
+                      <p>CS170: Efficient Algorithms and Intractable Problems</p>
+                      <p>CS188: Introduction to Artificial Intelligence</p>
+                      <p>CS172: Computability and Complexity</p>
+                      <p>CS162: Operating Systems and Systems Programming (current)</p>
+                      <p>CS168: Introduction to the Internet: Architecture and Protocols (current)</p>
+                  </article>
+                </div>
+            </div>
     </div>

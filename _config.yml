@@ -7,6 +7,9 @@ name: Kevin Lin
 # display in index.html in the carousel
 splash-header: Hi, I'm Kevin
 
+# used  in skills in index.html
+db_name: kklin
+
 #
 # Flags below are optional
 #
