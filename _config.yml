@@ -2,11 +2,10 @@
 # This file contains configuration flags to customize your site
 #
 
-# Name of your site (displayed in the header)
 name: Kevin Lin
 
-# Short bio or description (displayed in the header)
-description:
+# display in index.html in the carousel
+splash-header: Hi, I'm Kevin
 
 #
 # Flags below are optional
