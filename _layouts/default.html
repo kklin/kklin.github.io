@@ -21,34 +21,34 @@
 
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="/">KEVIN LIN</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul id="main-menu" class="nav navbar-nav">
-              <li><a href="/#about">ABOUT</a></li>
-              <li><a href="/#work-experience">WORK EXPERIENCE</a></li>
-              <li><a href="/#projects">PROJECTS</a></li>
-              <li><a href="/#skills">SKILLS</a></li>
-              <li><a href="/#education">EDUCATION</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="/blog">BLOG</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">KEVIN LIN</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="main-menu" class="nav navbar-nav">
+            <li><a href="/#about">ABOUT</a></li>
+            <li><a href="/#work-experience">WORK EXPERIENCE</a></li>
+            <li><a href="/#projects">PROJECTS</a></li>
+            <li><a href="/#skills">SKILLS</a></li>
+            <li><a href="/#education">EDUCATION</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/blog">BLOG</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
 
-      <div id="main" role="main"> 
-      {{ content }}
-      </div>
+    <div id="main" role="main"> 
+    {{ content }}
+    </div>
 
-      <div class="footer-container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
+    <div class="footer-container">
+      <footer class="footer">
+        {% include svg-icons.html %}
+      </footer>
+    </div>
 
     {% include analytics.html %}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
