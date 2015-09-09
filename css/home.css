@@ -2,6 +2,10 @@
     padding: 25px 100px 25px 100px
 }
 
+.section-content {
+    padding: 0px 0px 0px 50px;
+}
+
 .section-title {
     padding: 15px 15px 15px 15px;
     color: #F1948A;

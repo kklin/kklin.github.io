@@ -4,14 +4,11 @@ layout: default
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <!--
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
-      -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
           <img class="first-slide" src="http://images6.alphacoders.com/343/343299.jpg">
@@ -51,22 +48,26 @@ layout: default
       </a>
     </div><!-- /.carousel -->
 
-    <a name="about"></a>
-    <div class="main-section dark-background justify-right">
+    <!--<a name="about"></a>-->
+    <section id="about">
+    <div class="main-section dark-background">
         <div class="section-title">
             <h1>About Me</h1>
         </div>
-        <div class="row">
-            <div class="col-md-3">
-                <img src="https://placeholdit.imgix.net/~text?txtsize=28&txt=300%C3%97300&w=300&h=300">
-            </div>
-            <div class="col-md-9"></div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis est sit amet faucibus ornare. Cras pellentesque massa a tincidunt mollis. Vestibulum mollis porttitor tincidunt. Pellentesque at enim eget turpis pulvinar dignissim. Cras eleifend dolor mi, non scelerisque neque euismod vel. Vestibulum libero libero, cursus non consequat in, volutpat ac augue. Aliquam erat volutpat. Nulla mattis luctus massa, id congue leo imperdiet quis. Donec faucibus urna ac aliquam tincidunt. Proin ut quam molestie, maximus felis vel, ullamcorper sapien. Fusce accumsan sodales augue, vel sagittis urna auctor vitae. Sed et ornare lacus, sit amet interdum turpis. Sed dui mauris, viverra et accumsan sit amet, pellentesque vel sapien. Donec eget tellus id nisl pretium condimentum eu vel turpis. Vivamus vitae vulputate quam.
-            </div>
+          <div class="row">
+              <div class="col-md-3">
+                  <img src="/images/me.jpg" width="300" height="300">
+              </div>
+              <div class="col-md-9 about-text">
+              <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis est sit amet faucibus ornare. Cras pellentesque massa a tincidunt mollis. Vestibulum mollis porttitor tincidunt. Pellentesque at enim eget turpis pulvinar dignissim. Cras eleifend dolor mi, non scelerisque neque euismod vel. Vestibulum libero libero, cursus non consequat in, volutpat ac augue. Aliquam erat volutpat. Nulla mattis luctus massa, id congue leo imperdiet quis. Donec faucibus urna ac aliquam tincidunt. Proin ut quam molestie, maximus felis vel, ullamcorper sapien. Fusce accumsan sodales augue, vel sagittis urna auctor vitae. Sed et ornare lacus, sit amet interdum turpis. Sed dui mauris, viverra et accumsan sit amet, pellentesque vel sapien. Donec eget tellus id nisl pretium condimentum eu vel turpis. Vivamus vitae vulputate quam.
+              </p>
+              </div>
         </div>
     </div>
+    </section>
 
-    <a name="work-experience"></a>
+    <section id="work-experience">
     <div class="main-section">
         <div class="section-title">
             <h1>Work Experience</h1>
@@ -103,8 +104,9 @@ layout: default
       </div><!-- /.row -->
     </div>
   </div>
+    </section>
 
-    <a name="projects"></a>
+    <section id="projects">
     <div class="main-section dark-background">
         <div class="section-title">
             <h1>Projects</h1>
@@ -118,12 +120,14 @@ layout: default
             {% endfor %}
         </ul>
     </div>
+    </section>
 
-    <a name="skills"></a>
+    <section id="skills">
     <div class="main-section">
         <div class="section-title">
             <h1>Skills</h1>
         </div>
+        <div class="section-content">
 {% highlight sql %}
 kklin@host ~ % psql {{ site.db_name }}
 
@@ -134,13 +138,16 @@ python | fluent      |
 bash   | fluent      |
 C      | proficient  |
 {% endhighlight %}
+        </div>
     </div>
+    </section>
 
-    <a name="education"></a>
+    <section id="education">
     <div class="main-section dark-background">
         <div class="section-title">
             <h1>Education</h1>
         </div>
+        <div class="section-content">
                 <div class="row">
                  <div class="col-md-6">
                   <article class="education">
@@ -169,4 +176,6 @@ C      | proficient  |
                   </article>
                 </div>
             </div>
+        </div>
     </div>
+    </section>
