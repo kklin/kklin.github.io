@@ -8,7 +8,7 @@
 
 .section-title {
     padding: 15px 15px 15px 15px;
-    color: #F1948A;
+    color: #1A5276;
 }
 
 /* MARKETING CONTENT
@@ -21,7 +21,7 @@
 }
 .marketing h3 {
   font-weight: normal;
-  color: #1A5276;
+  color: #717D7E;
 }
 .marketing .col-lg-4 p {
   margin-right: 10px;
@@ -59,11 +59,11 @@
 }
 
 .title {
-  color: #1A5276
+  color: #717D7E;
 }
 
 .project-title a {
-  color: #1A5276
+  color: #717D7E;
 }
 
 .dark-background {

@@ -13,13 +13,13 @@ body {
 }
 
 .navbar-header .navbar-brand {
-  color: #1A5276;
+  color: #C39BD3;
 }
 
 #navbar .navbar-nav li a {
-  color: #F1948A;
+  color: #5D6D7E;
 }
 
 #navbar .navbar-nav li.active a {
-  color: #1A5276;
+  color: #C39BD3;
 }
