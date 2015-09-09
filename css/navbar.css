@@ -7,6 +7,15 @@ body {
   margin-bottom: 20px;
 }
 
-nav {
+.container-fluid {
   padding-left: 100px;
+  padding-right: 100px;
+}
+
+.navbar-header .navbar-brand {
+  color: #34495E;
+}
+
+#navbar .navbar-nav li a {
+  color: #F1948A;
 }
