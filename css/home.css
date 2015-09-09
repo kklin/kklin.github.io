@@ -1,5 +1,5 @@
 .main-section {
-    margin: 50px 100px 0px 100px
+    padding: 25px 100px 25px 100px
 }
 
 .section-title {
@@ -15,8 +15,9 @@
   margin-bottom: 20px;
   text-align: center;
 }
-.marketing h2 {
+.marketing h3 {
   font-weight: normal;
+  color: #1A5276;
 }
 .marketing .col-lg-4 p {
   margin-right: 10px;
@@ -51,4 +52,20 @@
 
 #projects li {
   list-style-type:none
+}
+
+.title {
+  color: #1A5276
+}
+
+.project-title a {
+  color: #1A5276
+}
+
+.dark-background {
+  background-color: #E5E8E8;
+}
+
+.justify-right {
+  text-align: right;
 }

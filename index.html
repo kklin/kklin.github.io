@@ -52,7 +52,7 @@ layout: default
     </div><!-- /.carousel -->
 
     <a name="about"></a>
-    <div class="main-section">
+    <div class="main-section dark-background justify-right">
         <div class="section-title">
             <h1>About Me</h1>
         </div>
@@ -98,14 +98,14 @@ layout: default
   </div>
 
     <a name="projects"></a>
-    <div class="main-section">
+    <div class="main-section dark-background">
         <div class="section-title">
             <h1>Projects</h1>
         </div>
         <ul id="projects">
             {% for project in site.categories.projects %}
                 <li>
-                    <h3><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h3>
+                    <h3 class="project-title"><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h3>
                     <p>{{ project.summary }}</p>
                 </li>
             {% endfor %}
@@ -130,7 +130,7 @@ C      | proficient  |
     </div>
 
     <a name="education"></a>
-    <div class="main-section">
+    <div class="main-section dark-background">
         <div class="section-title">
             <h1>Education</h1>
         </div>
@@ -138,18 +138,18 @@ C      | proficient  |
                  <div class="col-md-6">
                   <article class="education">
                     <header>
-                      <h3>University of California - Berkeley</h3>
+                      <h3 class="title">University of California - Berkeley</h3>
                       <p>Electrical Engineering and Computer Science B.S.</p>
-                      <p><strong>Expected Graduation Date:</strong> May 2017</p>
+                      <p>Expected Graduation Date: May 2017</p>
                       <!-- <br>
                       <img src="/img/cal.png" /> -->
                     </header>
                   </article>
                 </div>
                 <div class="col-md-6">
-                  <article class="education">
+                  <article>
                     <header>
-                      <p><strong>Relevant Coursework</strong></p>
+                      <h4 class="title">Relevant Coursework</h4>
                     </header>
                       <p>CS61B: Data Structures</p>
                       <p>CS61C: Great Ideas in Computer Architecture</p>
