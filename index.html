@@ -8,7 +8,8 @@ layout: default
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
@@ -16,7 +17,7 @@ layout: default
           <div class="container">
             <div class="carousel-caption">
                 <h1>{{ site.splash-header }}</h1>
-                <p>Me + Ingredients = Food<p>
+                <!--<p>Me + Ingredients = Food<p>-->
             </div>
           </div>
         </div>
@@ -25,7 +26,7 @@ layout: default
           <div class="container">
             <div class="carousel-caption">
                 <h1>{{ site.splash-header }}</h1>
-                <p>The easiest way to win is to not let the other guy shoot<p>
+                <!--<p>The easiest way to win is to not let the other guy shoot<p>-->
             </div>
           </div>
         </div>
@@ -34,16 +35,25 @@ layout: default
           <div class="container">
             <div class="carousel-caption">
                 <h1>{{ site.splash-header }}</h1>
-                <p>I like to hook sea animals on curved metal<p>
+                <!--<p>I like to hook sea animals on curved metal<p>-->
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="fourth-slide" src="/images/fishing.jpg">
+          <img class="fourth-slide" src="/images/hank_george.jpg">
           <div class="container">
             <div class="carousel-caption">
                 <h1>{{ site.splash-header }}</h1>
-                <p>I have two cats<p>
+                <!--<p>Meow<p>-->
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="fifth-slide" src="/images/asilomar.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+                <h1>{{ site.splash-header }}</h1>
+                <!--<p>Born in Monterey, CA<p>-->
             </div>
           </div>
         </div>
@@ -70,7 +80,39 @@ layout: default
               </div>
               <div class="col-md-9 about-text">
               <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis est sit amet faucibus ornare. Cras pellentesque massa a tincidunt mollis. Vestibulum mollis porttitor tincidunt. Pellentesque at enim eget turpis pulvinar dignissim. Cras eleifend dolor mi, non scelerisque neque euismod vel. Vestibulum libero libero, cursus non consequat in, volutpat ac augue. Aliquam erat volutpat. Nulla mattis luctus massa, id congue leo imperdiet quis. Donec faucibus urna ac aliquam tincidunt. Proin ut quam molestie, maximus felis vel, ullamcorper sapien. Fusce accumsan sodales augue, vel sagittis urna auctor vitae. Sed et ornare lacus, sit amet interdum turpis. Sed dui mauris, viverra et accumsan sit amet, pellentesque vel sapien. Donec eget tellus id nisl pretium condimentum eu vel turpis. Vivamus vitae vulputate quam.
+              <b>"Kevin - third year EECS major", is how I introduce myself on the first day of class.</b>
+              </p>
+              <p>
+              I've been messing around with computers since I was in middle school. My first project was a Visual Basic program that controlled a robot over RS232.
+              I was part of a ROV club that built little underwater vehicles, but I didn't like that we controlled the motors directly. What I wanted was a way to control
+              the ROV using a game controller, which would require a computer program to translate the joystick inputs into motor directives.
+              </p>
+              <p>
+              I'd like to say I've learned a lot since then. That first project was little more than a cobbled-together mess of snippets from the internet, but between my
+              <a href="#education">classes</a> at Berkeley, various <a href="#work-experience">internships</a>, and <a href="#projects">projects</a>, I've learned a lot.
+              Particularly because of my time as a Unix Sysadmin at ResComp, I've grown to admire the complexity of operating systems and networks. I don't admire the complexity
+              for its own sake, mind you, but because I look at it and think "how the <i>hell</i> does this work? Whoever designed this made some good choices". This interest in
+              networking led me to my <a href="#research">research</a> with NetSys on DI.
+              </p>
+              <p>
+              When I'm not working with computers, I'm probably playing pool, cooking, or fishing. They're all arts that become more and more interesting the more you learn about them. 
+              </p>
+              <p>
+              My big realization with billiards was that everything that happens on the pool table is more or less determinsistic. Different (but controllable) things happen when
+              you hit the cue ball in different places, when you shoot at different angles, even when you shoot at a soft vs. fast pace.
+              </p>
+              <p>
+              I like to say that cooking is the oldest study. It amazes me to think that the things I do in the kitchen are the results of thousands of years of refinement by tons
+              of different cultures. It thus has this unique combination of history (every person in history had to eat) and science 
+              (when you make a cake, what does baking soda really <i>do</i>?). I particularly enjoy baking bread. The physical act of kneading the dough, the simplicity of the ingredients,
+              the fact that the byproduct of <i>living things</i> is a critical ingredient, the ubiquity across cultures, all make me have a reverence for this simple baked good.
+              Seriously, if you want to talk about bread over coffee, send me an email.
+              </p>
+              <p>
+              I grew up in Monterey, CA so I was always close to the ocean. There's a certain camaraderie at a fishing pier
+              that's so relaxing. When there's action, everyone starts yelling, switching out their rigs, and casting -- when there's one fish, there's probably more fish.
+              When there's a lull, people are relaxed, watching the water or chatting while lazily casting. As President Hoover said, 
+              <i>“Fishing is a discipline in the equality of men – for all men are equal before fish.”</i>
               </p>
               </div>
         </div>
@@ -93,23 +135,27 @@ layout: default
           </div>
           <h3>{Junior,Lead} Unix Sysadmin</h3>
           <h4 class="text-muted">Jun 2014 - Present</h4>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p>I started as a Junior Unix Sysadmin in 2014, and became Lead in 2015. While at ResComp I've worked on designing a build system
+          for our custom FreeBSD code, revamping our internal web infrastructure, and automating tests.</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <div class="work-img">
-            <img src="http://iconshow.me/media/images/logo/brand-logo-icon/png/256/ebay-256.png">
+            <img src="/images/ebay.png">
           </div>
           <h3>Software Engineering Intern</h3>
           <h4 class="text-muted">Jun - Aug 2015</h4>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p>At eBay, I worked on setting up a system for analyzing logs using LogStash, Elasticsearch, and Kibana. The idea was that
+          it's often difficult to figure out what went wrong from a log dump, so I created a modeling system for expected log events that
+          could be created once, and then shared with other developers.</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
             <div class="work-img">
-              <img src="http://images.insidejobs.com/schools/896/photos/medium/naval_postgraduate_school_logo.jpg">
+              <img src="/images/nps.jpg">
           </div>
           <h3>Software Engineering Intern</h3>
           <h4 class="text-muted">2011-2012</h4>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p>At NPS, I leveraged the existing vehicle simulation in the <a href="https://savage.nps.edu/AuvWorkbench/">AuvWorkbench</a>
+          to support Remotely Operated Vehicles.</p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
     </div>
@@ -139,14 +185,18 @@ layout: default
         </div>
         <div class="section-content">
 {% highlight sql %}
-kklin@host ~ % psql {{ site.db_name }}
+kklin@kevinlin.io ~ % psql {{ site.db_name }}
 
 {{ site.db_name }}=> SELECT * FROM skills ORDER BY proficiency DESC;
-skill  | proficiency | 
+skill  | proficiency |
 -------+-------------+
 python | fluent      |
 bash   | fluent      |
+git    | fluent      |
+java   | fluent      |
 C      | proficient  |
+puppet | proficient  |
+
 {% endhighlight %}
         </div>
     </div>
@@ -181,8 +231,8 @@ C      | proficient  |
                       <p>CS170: Efficient Algorithms and Intractable Problems</p>
                       <p>CS188: Introduction to Artificial Intelligence</p>
                       <p>CS172: Computability and Complexity</p>
-                      <p>CS162: Operating Systems and Systems Programming (current)</p>
-                      <p>CS168: Introduction to the Internet: Architecture and Protocols (current)</p>
+                      <p>CS162: Operating Systems and Systems Programming</p>
+                      <p>CS168: Introduction to the Internet: Architecture and Protocols</p>
                   </article>
                 </div>
             </div>
