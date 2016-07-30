@@ -17,9 +17,13 @@ body {
 }
 
 #navbar .navbar-nav li a {
-  color: #3E3F40;
+  color: #838583;
 }
 
 #navbar .navbar-nav li.active a {
-  color: #838583;
+  color: #3E3F40;
+}
+
+#navbar .navbar-nav .custom-nav li.active {
+  color: #E5E8E8;
 }
