@@ -80,39 +80,16 @@ layout: default
               </div>
               <div class="col-md-9 about-text">
               <p>
-              <b>"Kevin - third year EECS major", is how I introduce myself on the first day of class.</b>
+              I'm an EECS student, graduating from UC Berkeley in Fall 2016.
               </p>
               <p>
-              I've been messing around with computers since I was in middle school. My first project was a Visual Basic program that controlled a robot over RS232.
-              I was part of a ROV club that built little underwater vehicles, but I didn't like that we controlled the motors directly. What I wanted was a way to control
-              the ROV using a game controller, which would require a computer program to translate the joystick inputs into motor directives.
+              I'm primarily interested in systems and programming languages. I'm
+              currently working on a project dealing with the intersection of the two
+              called <a href="http://quilt.io">Quilt</a>.
               </p>
               <p>
-              I'd like to say I've learned a lot since then. That first project was little more than a cobbled-together mess of snippets from the internet, but between my
-              <a href="#education">classes</a> at Berkeley, various <a href="#work-experience">internships</a>, and <a href="#projects">projects</a>, I've learned a lot.
-              Particularly because of my time as a Unix Sysadmin at ResComp, I've grown to admire the complexity of operating systems and networks. I don't admire the complexity
-              for its own sake, mind you, but because I look at it and think "how the <i>hell</i> does this work? Whoever designed this made some good choices". This interest in
-              networking led me to my <a href="#research">research</a> with NetSys on DI.
-              </p>
-              <p>
-              When I'm not working with computers, I'm probably playing pool, cooking, or fishing. They're all arts that become more and more interesting the more you learn about them. 
-              </p>
-              <p>
-              My big realization with billiards was that everything that happens on the pool table is more or less determinsistic. Different (but controllable) things happen when
-              you hit the cue ball in different places, when you shoot at different angles, even when you shoot at a soft vs. fast pace.
-              </p>
-              <p>
-              I like to say that cooking is the oldest study. It amazes me to think that the things I do in the kitchen are the results of thousands of years of refinement by tons
-              of different cultures. It thus has this unique combination of history (every person in history had to eat) and science 
-              (when you make a cake, what does baking soda really <i>do</i>?). I particularly enjoy baking bread. The physical act of kneading the dough, the simplicity of the ingredients,
-              the fact that the byproduct of <i>living things</i> is a critical ingredient, the ubiquity across cultures, all make me have a reverence for this simple baked good.
-              Seriously, if you want to talk about bread over coffee, send me an email.
-              </p>
-              <p>
-              I grew up in Monterey, CA so I was always close to the ocean. There's a certain camaraderie at a fishing pier
-              that's so relaxing. When there's action, everyone starts yelling, switching out their rigs, and casting -- when there's one fish, there's probably more fish.
-              When there's a lull, people are relaxed, watching the water or chatting while lazily casting. As President Hoover said, 
-              <i>“Fishing is a discipline in the equality of men – for all men are equal before fish.”</i>
+              In my free time I enjoy cooking (baking bread in particular), playing
+              pool, and fishing.
               </p>
               </div>
         </div>
@@ -143,7 +120,7 @@ layout: default
             <img src="/images/ebay.png">
           </div>
           <h3>Software Engineering Intern</h3>
-          <h4 class="text-muted">Jun - Aug 2015</h4>
+          <h4 class="text-muted">Summer 2015</h4>
           <p>At eBay, I worked on setting up a system for analyzing logs using LogStash, Elasticsearch, and Kibana. The idea was that
           it's often difficult to figure out what went wrong from a log dump, so I created a modeling system for expected log events that
           could be created once, and then shared with other developers.</p>
@@ -153,9 +130,34 @@ layout: default
               <img src="/images/nps.jpg">
           </div>
           <h3>Software Engineering Intern</h3>
-          <h4 class="text-muted">2011-2012</h4>
+          <h4 class="text-muted">2011 - 2012</h4>
           <p>At NPS, I leveraged the existing vehicle simulation in the <a href="https://savage.nps.edu/AuvWorkbench/">AuvWorkbench</a>
           to support Remotely Operated Vehicles.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      <div class="row">
+        <div class="col-lg-4">
+            <div class="work-img">
+              <img src="/images/netsys.png">
+          </div>
+          <h3>Researcher</h3>
+          <h4 class="text-muted">Winter 2015 - Present</h4>
+          <p>
+          At NetSys, I worked on <a href="http://quilt.io">Quilt</a>, a project for deploying distributed systems. Focused
+          primarily on designing and implementing the initial version of the language.
+          </p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="work-img">
+            <img src="/images/amazon.jpg">
+          </div>
+          <h3>Software Engineering Intern</h3>
+          <h4 class="text-muted">Summer 2016</h4>
+          <p>
+          At Amazon, I worked on the Kindle Notifications team to intelligently schedule
+          notifications to maximize clickthrough wait. This required significant modifications
+          to existing architecture, and analysis of engagement metrics.
+          </p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
     </div>
@@ -190,6 +192,7 @@ kklin@kevinlin.io ~ % psql {{ site.db_name }}
 {{ site.db_name }}=> SELECT * FROM skills ORDER BY proficiency DESC;
 skill  | proficiency |
 -------+-------------+
+go     | fluent      |
 python | fluent      |
 bash   | fluent      |
 git    | fluent      |
@@ -214,7 +217,7 @@ puppet | proficient  |
                     <header>
                       <h3 class="title">University of California - Berkeley</h3>
                       <p>Electrical Engineering and Computer Science B.S.</p>
-                      <p>Expected Graduation Date: May 2017</p>
+                      <p>Expected Graduation Date: Dec 2016</p>
                       <!-- <br>
                       <img src="/img/cal.png" /> -->
                     </header>
@@ -233,6 +236,8 @@ puppet | proficient  |
                       <p>CS172: Computability and Complexity</p>
                       <p>CS162: Operating Systems and Systems Programming</p>
                       <p>CS168: Introduction to the Internet: Architecture and Protocols</p>
+                      <p>CS194: Practical Networking</p>
+                      <p>CS268: Graduate Networking</p>
                   </article>
                 </div>
             </div>
